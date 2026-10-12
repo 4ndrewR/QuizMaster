@@ -48,6 +48,7 @@ Students sign up themselves from the login screen, then enroll in subjects via
 Requires a JDK (17+) and Maven. JavaFX is pulled in by Maven automatically.
 
 ```bash
+cd QuizMaster/QuizMaster
 mvn clean javafx:run
 ```
 
@@ -56,6 +57,7 @@ current terminal session first, then run the command above:
 
 ```powershell
 $env:Path = "C:\path\to\apache-maven\bin;" + $env:Path
+cd QuizMaster/QuizMaster
 mvn clean javafx:run
 ```
 
